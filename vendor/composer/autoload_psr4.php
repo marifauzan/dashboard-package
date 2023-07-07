@@ -6,6 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Bjb\\Dashboard\\Http\\Controllers\\' => array($baseDir . '/src/Http/Controllers'),
-    'Bjb\\Dashboard\\' => array($baseDir . '/src'),
+    'Smpl\\Logindigiforsdi\\' => array($baseDir . '/src'),
 );
